@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Bifrost
-version: master-2026-06-07
+name: Bifrost (synssins)
+version: synssins-2026-10-15
 slug: bifrost
-description: "Bifrost enables you to emulate a Philips Hue Bridge to control lights, groups and scenes from Zigbee2Mqtt."
-url: "https://github.com/duvholt/bifrost"
+description: "Emulates a Philips Hue Bridge for Zigbee2Mqtt lights and Philips WiZ lights, with rooms that mix both."
+url: "https://github.com/synssins/bifrost/tree/synssins"
 arch:
   - amd64
   - aarch64

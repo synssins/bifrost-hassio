@@ -11,6 +11,19 @@ and see if that solves the problem.
 
 We hope you will like Bifrost!
 
+### 2026-10-15: `synssins` (WiZ lights, mixed rooms)
+
+Built from [synssins/bifrost](https://github.com/synssins/bifrost/tree/synssins),
+which is duvholt/bifrost plus:
+
+- **WiZ lights**: Philips WiZ bulbs and plugs over their local protocol. Add
+  `wiz: {home: {}}` to `config.yaml`; see `doc/wiz.md` in the repository.
+- **Mixed rooms and zones**: rooms, zones and scenes can hold lights from
+  several backends (z2m servers and WiZ).
+- Fixes for two cases that stopped the z2m backend: deleting or recalling a
+  scene stored elsewhere, and entertainment areas with lights from another
+  backend.
+
 ### 2026-08-10: `duvholt/feat/integration-tests`
 
 - Simple zigbee2mqtt in memory emulator for development and integration testing
