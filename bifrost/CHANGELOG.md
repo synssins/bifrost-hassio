@@ -11,6 +11,13 @@ and see if that solves the problem.
 
 We hope you will like Bifrost!
 
+### 2026-10-15.2: `synssins` (restore after streaming)
+
+- When a Hue Sync or entertainment session ends, the lights go back to how
+  they were before it started, as on a real Hue bridge. Changes made to
+  those lights during the session are kept.
+- WiZ colours were sent much too dark; they now use the full range.
+
 ### 2026-10-15: `synssins` (WiZ lights, mixed rooms)
 
 Built from [synssins/bifrost](https://github.com/synssins/bifrost/tree/synssins),
